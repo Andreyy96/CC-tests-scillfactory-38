@@ -19,7 +19,7 @@
     
     @Given("url of Scillfactory {string}")
     public void url_of_Scillfactory(String url) {
-        homePage.go();
+         homePage.go();
     }
     
     @When("website is open write in the email 1 field {string}")
